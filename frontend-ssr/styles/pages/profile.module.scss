@@ -1,0 +1,27 @@
+@import "../variables";
+
+.page {
+  text-align: center;
+  height: 70%;
+
+  img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+
+  input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 35%;
+    border: 1px solid lightgray; // use variable
+  }
+
+  .updateDetailsBtn {
+    padding: 10px;
+  }
+}

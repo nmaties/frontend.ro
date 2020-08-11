@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { dummy } from './dummy/dummy-reducer';
+import profile from './reducers/profile';
 
 const rootReducer = combineReducers({
-  dummy,
+  profile,
 });
 
 export default rootReducer;
